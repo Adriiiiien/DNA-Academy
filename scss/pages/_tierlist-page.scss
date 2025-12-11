@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use "sass:color";
 
 // couleurs associées à chaque rang de la tier list
 $tier-colors: (
@@ -66,7 +67,7 @@ $tier-colors: (
     border-color: $color;
 
     .tier-header {
-      background: linear-gradient(180deg, $color, darken($color, 10%));
+      background: linear-gradient(180deg, $color, color.adjust($color, $lightness: -10%));
       color: $color-bg-page;
     }
   }
