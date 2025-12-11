@@ -255,7 +255,7 @@ Accessible uniquement si :
 3.  Le token est valide.
 
 **Fonctionnalités :**
-Ajouter un personnage
-Modifier un personnage
-Supprimer un personnage
-Voir la liste complète
+Ajouter un personnage /
+Modifier un personnage /
+Supprimer un personnage /
+Voir la liste complète /
