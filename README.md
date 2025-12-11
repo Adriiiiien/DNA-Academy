@@ -216,9 +216,9 @@ L’interface admin utilise ce système pour autoriser les opérations CRUD.
 
 ### Modules front (réutilisables)
 
-* **✔ ListFilters** : Gère l’affichage, l’état actif et le callback sur changement de filtre.
-* **✔ ListSearch** : Barre de recherche générique.
-* **✔ ListPagination** : Pagination totalement réutilisable.
+* **ListFilters** : Gère l’affichage, l’état actif et le callback sur changement de filtre.
+* **ListSearch** : Barre de recherche générique.
+* **ListPagination** : Pagination totalement réutilisable.
 
 ---
 
@@ -255,7 +255,7 @@ Accessible uniquement si :
 3.  Le token est valide.
 
 **Fonctionnalités :**
-✔ Ajouter un personnage
-✔ Modifier un personnage
-✔ Supprimer un personnage
-✔ Voir la liste complète
+Ajouter un personnage
+Modifier un personnage
+Supprimer un personnage
+Voir la liste complète
