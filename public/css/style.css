@@ -117,7 +117,7 @@ main {
 }
 
 .header-content {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
@@ -1553,7 +1553,7 @@ main {
 
 #admin-form-container {
   max-width: 700px;
-  margin-top: calc(73px + 2rem);
+  margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;

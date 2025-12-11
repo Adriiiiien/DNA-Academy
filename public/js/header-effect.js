@@ -7,13 +7,13 @@ function initScrollEffect() {
   if (!header) return;
 
   // état initial au chargement de la page
-  if (window.scrollY > 50) {
+  if (window.scrollY > 15) {
     header.classList.add('scrolled');
   }
 
   // met à jour la classe lors du scroll
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 15) {
       header.classList.add('scrolled');
     } else {
       header.classList.remove('scrolled');
