@@ -1,10 +1,11 @@
 // mise en forme du footer global : blocs de contenu, liens, bandeau du bas, lien admin
 
 @use '../base/variables' as *;
+@use "sass:color";
 
 // wrapper principal du footer
 .main-footer {
-  background-color: darken($color-bg-page, 8%);
+  background-color: color.adjust($color-bg-page, $lightness: -8%);
   color: $color-text-base;
   border-top: 1px solid rgba($hue-lumino, 0.1);
   font-size: 0.95rem;

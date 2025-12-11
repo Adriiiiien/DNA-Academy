@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use "sass:color";
 
 // styles communs aux pages de détail personnage et arme
 .character-detail,
@@ -13,7 +14,7 @@
 
   .detail-header {
     width: 100%;
-    background-color: darken($color-bg-page, 5%);
+    background-color: color.adjust($color-bg-page, $lightness: -5%);
     text-align: center;
     border-bottom: 1px solid $color-border-primary;
     position: relative;

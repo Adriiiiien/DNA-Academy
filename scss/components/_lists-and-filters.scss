@@ -1,6 +1,7 @@
 // styles des intros de page, filtres, barre de recherche, listes et pagination
 
 @use '../base/variables' as *;
+@use "sass:color";
 
 .page-intro {
   background-color: $color-bg-card;
@@ -131,7 +132,7 @@
   transition: all 0.2s ease;
 
   &:hover {
-    background-color: lighten($color-bg-card, 10%);
+    background-color: color.adjust($color-bg-card, $lightness: 10%);
     color: $hue-lumino;
     border-color: $hue-lumino;
   }
@@ -209,7 +210,7 @@
   transition: all 0.2s ease;
 
   &:hover:not(:disabled) {
-    background-color: lighten($color-bg-card, 8%);
+     background-color: color.adjust($color-bg-card, $lightness: 8%);
     border-color: $hue-lumino;
     color: $hue-lumino;
   }
